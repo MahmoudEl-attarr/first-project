@@ -1,0 +1,567 @@
+/* 
+first color : #08526d
+second color : #ec1c23
+*/
+.body{
+    width: 100%;
+    height: 100%;
+}
+/*________________________________________________ START Nav Bar   _________________________________________________________________ */
+.navbar-brand .elite{
+    color: #08526d;
+    font-weight: bold;
+    font-size: 40px;
+}
+.navbar-brand .corp{
+    color: #ec1c23;
+    font-size: 40px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #08526d;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+     color: #ec1c23;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #ec1c23;
+}
+/*________________________________________________ END Nav Bar     _________________________________________________________________ */
+/*________________________________________________ START Slider    _________________________________________________________________ */
+.slider .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 30%;
+      bottom: 0;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: left;
+      font-size: 20px;
+        font-weight: bold;
+}
+.slider .carousel-caption span{
+        background-color: #ec1c23;
+        padding: 5px;
+}
+@media (min-width: 576px){
+    .slider .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 30%;
+      bottom: 0;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: left;
+      font-size: 32px;
+      font-weight: bold;
+}
+.slider .carousel-caption span{
+    background-color: #ec1c23;
+    padding: 5px;
+}
+}
+@media (min-width: 768px){
+.slider.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-size: 40px;
+    font-weight: bold;
+}
+.slider .carousel-caption span{
+    background-color: #ec1c23;
+    padding: 5px;
+}}
+@media (min-width: 992px){
+    .slider .carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-size: 50px;
+    font-weight: bold;
+}
+.slider .carousel-caption span{
+    background-color: #ec1c23;
+    padding: 5px;
+}
+}
+@media (min-width: 1200px){
+    .slider .carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-size: 60px;
+    font-weight: bold;
+}
+.slider .carousel-caption span{
+    background-color: #ec1c23;
+    padding: 5px;
+}
+}
+/*________________________________________________ END Slider      _________________________________________________________________ */
+/*________________________________________________ START Fearures  _________________________________________________________________ */
+.features{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.features h3{
+     color: #08526d;
+    font-weight: bold;
+    font-size: 25px;
+}
+.features i{
+    color: white;
+    background-color: #ec1c23;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*________________________________________________ END Fearures    _________________________________________________________________ */
+/*________________________________________________ START Overview  _________________________________________________________________ */
+.over-view{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #f0f5f7;
+    
+}
+.over-view h1{
+    padding-bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.over-view p{
+    color: #484848;
+}
+.over-view h4{
+    color: #484848;
+    margin-bottom: 30px; 
+}
+.over-view .view-more{
+    color: white;
+    padding: 5px 25px;
+    background-color: #ec1c23;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+/*________________________________________________ END  Overview   _________________________________________________________________ */
+/*_________________________________________ START  featured Work   _________________________________________________________________ */
+.featured-work{
+    padding: 100px 0;
+    text-align: center;
+}
+.featured-work h1{
+    padding-bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.featured-work p{
+    color: #484848;
+}
+.featured-work ul{
+        padding-top:  30px; 
+        padding-left: 0;
+}
+.featured-work .row {
+    margin: 0;
+ }
+.featured-work ul li {
+    display: inline-block;
+    color: #08526d;
+    border: 1px solid #08526d;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.featured-work ul li.active {
+    background-color: #ec1c23;
+    color: white;
+}
+.featured-work ul li:hover {
+    cursor: pointer;
+    background-color: #ec1c23;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+.featured-work .image-section{
+  margin: 0;
+}
+.featured-work .image-section .col{
+      padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*___________________________________________ END  featured Work   _________________________________________________________________ */
+
+/*___________________________________________ START latestPost   _________________________________________________________________ */
+.latest-post{
+    margin-bottom: 50px;
+}
+
+.latest-post h1{
+    padding-bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+.latest-post p{
+    color: #484848;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.latest-post .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.latest-post .card-title{
+    color: #08526d;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+.latest-post span{
+    color: #858788;
+    font-size: 12px;
+    margin-left: -20px;
+
+}
+.latest-post .card-text{
+    color: #5e5c5c;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+.latest-post .btn-primary{
+    background-color: transparent;
+    border: none;
+    color: #ec1c23;
+    margin-left: -20px;
+    padding: 0;
+}
+@media (min-width: 576px){
+    .latest-post .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+}
+@media (min-width: 768px){
+    .latest-post .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+}
+@media (min-width: 992px){
+    .latest-post .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+}
+@media (min-width: 1200px){   
+.latest-post .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+}
+/*___________________________________________ END  latestPost   _________________________________________________________________ */
+/*___________________________________________ START  Testimonials   _________________________________________________________________ */
+.testimonials .carousel-caption {
+      top: 40%;
+      color: black;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+}
+.testimonials .carousel-caption h5{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.testimonials .carousel-caption span{
+        color: black;
+        padding: 5px;
+        font-size: 18px;
+      font-weight: 300;
+}
+/*___________________________________________ END  Testimonials   _________________________________________________________________ */
+/*___________________________________________ START  Pricing Table   _________________________________________________________________ */
+.pricing-table{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+.pricing-table h1{
+    padding-bottom: 20px;
+    color: #000;
+    font-weight: 500px;
+
+}
+.pricing-table p{
+    color: #747779;
+    margin-bottom: 100px;
+}
+.pricing-table .card{
+    border: none;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+.pricing-table .card-title{
+    color: #08526d;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+.pricing-table span{
+    color: #858788;
+    font-size: 12px;
+
+}
+.pricing-table h3{
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.pricing-table h2{
+    color: #08526d;
+    font-weight: 600;
+    background-color: #f9f9f9;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.pricing-table h6{
+    color: #858788;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 20px;
+    
+}
+.pricing-table .btn-primary{
+    background-color: #ec1c23;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-left: -20px;
+}
+.pricing-table .btn-primary:hover{
+    background-color:  #08526d;
+}
+.pricing-table .corporate h2{
+    background-color: #ec1c23;
+    color: white;
+    
+}
+.pricing-table .corporate .buynow {
+    background-color: #08526d;
+    color: white;
+    
+}
+@media (min-width: 576px){
+    .pricing-table .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+    .pricing-table .price-section{
+    margin-top: -20px;
+}
+}
+@media (min-width: 768px){
+    .pricing-table .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+    .pricing-table .price-section{
+    margin-top: 0px;
+}
+}
+@media (min-width: 992px){
+    .pricing-table .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+    .pricing-table .price-section{
+    margin-top: 0px;
+}
+}
+@media (min-width: 1200px){   
+.pricing-table .card{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+     .pricing-table .price-section{
+    margin-top: -20px;
+}
+}
+/*___________________________________________ END  Testimonials   _________________________________________________________________ */
+/*___________________________________________ START  achievement   _________________________________________________________________ */
+.achievement{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    color: #ec1c23;
+    font-size: 14px;
+    font-style: italic;
+}
+.achievement h3{
+    color: #08526d;
+    font-weight: bold;
+}
+.achievement i{
+    color: #08526d;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+/*___________________________________________ END  achievement   _________________________________________________________________ */
+/*___________________________________________ START  worktogether   _________________________________________________________________ */
+.work-together{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ec1c23;
+    color: #EEE;
+}
+.work-together .btn-primary{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.work-together .btn-primary:hover{
+    background-color: #08526d;
+    border: none;
+    color: white;   
+}
+/*___________________________________________ END  worktogether   _________________________________________________________________ */
+/*___________________________________________ START  ContactUs   _________________________________________________________________ */
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+.contact .elite{
+    color: #08526d;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contact .corp{
+    color: #ec1c23;
+    font-size: 40px;
+}
+.contact p{  
+    color: #484848;
+}
+.contact .btn-primary{
+    background-color: transparent;
+    border: none;
+    color: #08526d;
+    padding: 0;
+    font-weight: 600;
+}
+.contact h2{
+    color: #08526d;
+}
+.contact ul{
+    list-style: none;
+    color: #08526d;
+    padding-left: 0;
+}
+.contact .links-style ul{
+    line-height: 2rem;
+}
+.contact .contactUs ul{
+    line-height: 3.5rem;
+    
+}
+.contact i {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+    color: #484848;
+}
+/*___________________________________________ End  ContactUs   _________________________________________________________________ */
+/*___________________________________________ START  Footer   ________________________________________________________________ */
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+    color: #484848;
+    border-top: 1px solid #08526d;
+}
+.footer i{
+    font-size: 25px;
+    margin: 0 10px;
+    color:  #08526d;
+}
+/*___________________________________________ END  Footer   _________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
